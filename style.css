@@ -1,0 +1,57 @@
+a {
+    text-decoration: none;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    background-color: aliceblue;
+}
+
+ul.nav li {
+    display: inline;
+    float: right;
+}
+
+ul.nav li a {
+    display: block;
+    padding: 15px;
+    color: darkslateblue;
+    background-color: aliceblue;
+}
+
+ul.nav li a:hover:not(.active) {
+        background-color: cadetblue;
+        color: whitesmoke;
+    }
+
+ul.nav li a.active {
+    background-color: darkseagreen;
+    color: azure;
+}
+.logo {
+    float: left;
+    margin-top: -5px;
+    display: inline;
+    vertical-align: middle;
+}
+
+.welcome {
+    background-color: lightgoldenrodyellow;
+    margin-top: 50px;
+    word-wrap: normal;
+    padding:10px;
+    padding-left: 20%;
+    padding-bottom: 200px;
+}
+
+.welcomeText {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 30%;
+    padding-top:50px;
+    line-height: 150%;
+    line-break: normal;
+}
