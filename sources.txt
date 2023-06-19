@@ -1,2 +1,3 @@
 https://www.w3schools.com/howto/howto_js_slideshow.asp
 https://www.w3docs.com/snippets/html/how-to-embed-pdf-in-html.html
+https://www.tipsandtricks-hq.com/simple-table-of-contents-toc-using-pure-html-and-css-code-9217

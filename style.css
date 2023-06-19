@@ -45,7 +45,7 @@ ul.nav li a.active {
     word-wrap: normal;
     padding-top:12%;
     padding-left: 20%;
-    height: 65vh;
+    height: 90vh;
 }
 
 .welcomeText {
@@ -86,7 +86,7 @@ ul.nav li a.active {
     color: black;
     text-align: center;
     padding: 10px;
-    width: 10%;
+    width: 15%;
     transition: all 0.3s;
     cursor: pointer;
     font-weight: 700;
@@ -165,7 +165,7 @@ ul.nav li a.active {
 }
 
 /* Hide the images by default */
-.mySlides {
+.mySlides1, .mySlides2 {
   display: none;
 }
 
@@ -241,4 +241,25 @@ ul.nav li a.active {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+#toc_container {
+  background: #f9f9f9 none repeat scroll 0 0;
+  border: 1px solid #aaa;
+  display: table;
+  font-size: 95%;
+  margin-bottom: 1em;
+  margin-left: 35%;
+  padding: 20px;
+  width: auto;
+  text-align: left;
+}
+
+.toc_title {
+  font-weight: 700;
+  text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+  list-style: outside none none !important;
 }
